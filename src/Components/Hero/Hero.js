@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Hero.css'
+import './Hero.css'
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 
