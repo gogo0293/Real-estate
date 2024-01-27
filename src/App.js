@@ -1,14 +1,12 @@
-import Hero from "./Components/Hero/Hero";
-import Section from "./Components/Section/Section";
+import React from 'react'
+import Navbar from './Components/Navbar'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Hero />
-      <div className="br" />
-      <Section />
-    </div>
-  );
+    <>
+      <Navbar />
+    </>
+  )
 }
 
-export default App;
+export default App
