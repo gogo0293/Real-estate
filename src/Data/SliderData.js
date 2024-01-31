@@ -8,6 +8,7 @@ export const SliderData = [
         label: 'View Home',
         image: imageone,
     }
+
 ]
 
 /*export const SliderDataTwo = [

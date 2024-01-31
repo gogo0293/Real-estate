@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Button } from '../Components/Button'
 
 const HeroSection = styled.section`
     height: 100vh;
@@ -34,6 +35,10 @@ const Hero = ({ slides }) => {
                             <HeroImage />
                             <HeroContent>
                                 <h1>{slide.title}</h1>
+                                <p>{slide.price}</p>
+                                <Button to={slide.path} primary='true' css={`max-width: 160px`}>
+                                    {slide.label}
+                                </Button>
                             </HeroContent>
                         </HeroSlider>
                     </HeroSlide>
