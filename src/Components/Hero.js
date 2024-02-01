@@ -33,6 +33,18 @@ const HeroSlider = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    &::before {
+        content: '';
+        position: absolute;
+        z-index: 2;
+        width: 100%;
+        height: 100vh;
+        bottom: 0vh;
+        left: 0;
+        overflow: hidden;
+        opacity: 0.4;
+    }
 `;
 const HeroImage = styled.img`
     position: absolute;
