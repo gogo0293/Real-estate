@@ -4,6 +4,8 @@ import Navbar from './Components/Navbar'
 import GlobalStyle from './GolbalStyles'
 import Hero from './Components/Hero'
 import { SliderData } from './Data/SliderData'
+import InfoSection from './Components/InfoSection'
+import { InfoData } from './Data/InfoData'
 
 const App = () => {
 
@@ -19,6 +21,7 @@ const App = () => {
       <Navbar toggle={toggle} />
       <Dorpdown isOpen={isOpen} toggle={toggle} />
       <Hero slides={SliderData}/> 
+      <InfoSection {...InfoData}/>
     </>
   )
 }
